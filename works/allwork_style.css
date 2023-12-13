@@ -1,0 +1,317 @@
+/* CSS Document */
+
+/*mobile*/
+@media (max-width: 959px) {
+  #logo-large {
+    display: none;
+  }
+  #logo-small {
+    display: block;
+  }
+  .menu-text {
+    font-size: 1rem;
+  }
+
+  .menu-list {
+    gap: 1rem;
+    display: flex;
+    right: 1.2rem;
+    text-align: center;
+    float: left;
+    position: fixed;
+	
+  }
+    .logo-menu {
+    align-items: center;
+    display: flex;	
+  }
+  .info-list {
+    display: none;
+  }
+   #nav-bar {
+    height: 2rem;
+    width: 100vw;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+    background-color: #fff;
+    z-index: 10;
+  }
+  #side-info{
+	
+	display: none;
+	position: fixed;
+	left: 0%;
+	top: 88%;
+	padding: 2px 16px;
+	text-align: center;
+	font-size: 0.75rem;
+	font-family: "pretendard medium";
+	background: #fff;
+	z-index: 12;
+	transform: rotate(-90deg);
+	white-space : nowrap;
+	transform-origin: 0% 0%;
+	}	
+	
+#side{
+	z-index: 12;
+	display: flex;
+	position: fixed;
+	left: 0%;
+	top: 20%;
+}
+}
+
+/*desktop*/
+@media (min-width: 960px) {
+  #logo-large {
+    display: block;
+  }
+  #logo-small {
+    display: none;
+  }
+
+  .menu-text {
+    font-size: 1.5rem;
+  }
+  .menu-list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+    text-align: left;
+  }
+  
+  .logo-menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+    display: flex;
+    background-color: #fff;
+    z-index: 11;
+    padding-bottom: 2.5rem;
+    padding-right: 4.5rem;
+  }
+  .info-list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    display: flex;
+    bottom: 12rem;
+    position: absolute;
+    left: 4rem;
+  }
+
+  .info-text {
+    color: #444444;
+    font-size: 1rem;
+    font-family: "Pretendard medium";
+    font-weight: 500;
+    word-wrap: break-word;
+    text-decoration: none;
+	}
+
+  .logomenu-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+   #nav-bar {
+    height: 100vh;
+    width: 18rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 12rem;
+    background-color: #fff;
+    z-index: 10;
+  }
+  #side-info{
+	display: none;
+	}
+#side{
+	display: none;
+}
+	
+	.tltle {
+    font-family: "pretendard bold";
+    font-weight: 600;
+    font-size: 300%;
+    text-align: left;
+    margin-top: 3rem;
+    position: absolute;
+		
+	animation-duration: 1s;
+	animation-name: slidetitle;
+	animation-direction: normal;
+  }
+	
+	#main-area {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding-left: 1rem;
+    left: 30%;
+    top: 0px;
+    position: fixed;
+	flex-wrap: wrap;
+  }
+	
+.card-area{
+    padding-top: 10rem;
+    position: static;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+	float: left;
+    gap: 3%;
+	
+	}
+	
+.card{
+	position: absolute;
+	display: flex;
+	
+	border-radius: 16px;
+	width: 292px;
+	height: 256px;
+	overflow: hidden;
+	transition: 0.5s;
+	
+}
+	
+	.card:hover{
+		transform: scale(1.05)
+		
+	}
+	
+.card-image{
+	position: relative;
+	width: 292px;
+	height: 256px;
+	
+}
+	.card-text-wrap{
+		position: absolute;
+		bottom: 0;
+		padding-left: 12px;
+		z-index: 2;
+		width: 100%;
+		background-color: rgba(0,0,0,0.2);
+	}
+	
+	.card-title{
+		font-family: "pretedard bold";
+		font-weight: 600;
+		line-height: 22px;
+		color: #fff;
+	}
+	
+	
+	/*no use*/
+	.card-subtitle{
+		font-family: "pretendard medium";
+		font-weight: 400;
+		line-height: 18px;
+		font-size: 14px;
+		color: #565656;
+		
+	}
+}
+
+
+
+.logo {
+  width: 8.25rem;
+  height: 12.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+.logo-mobile {
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.menu-text {
+  color: black;
+  font-family: "Pretendard bold";
+  font-weight: 700;
+  word-wrap: break-word;
+  text-decoration-line: none;
+}
+
+
+
+body {
+  overflow: hidden;
+}
+
+html, body{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 1%;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #dddddd;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+/*animation*/
+
+@keyframes slidetitle {
+	from {
+    position: absolute;
+	margin-top: 3rem;
+    margin-left: 6rem;
+	opacity: 0;
+  }
+	to {
+    position: absolute;
+	margin-top: 3rem;
+    margin-left: 0rem;
+	opacity: 1;
+  }
+}
