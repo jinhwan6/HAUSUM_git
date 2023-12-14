@@ -19,16 +19,15 @@
     text-align: center;
     float: left;
     position: fixed;
-	
   }
-    .logo-menu {
+  .logo-menu {
     align-items: center;
-    display: flex;	
+    display: flex;
   }
   .info-list {
     display: none;
   }
-   #nav-bar {
+  #nav-bar {
     height: 2rem;
     width: 100vw;
     padding-left: 1.5rem;
@@ -45,44 +44,41 @@
     background-color: #fff;
     z-index: 10;
   }
-  #side-info{
-	
-	display: none;
-	position: fixed;
-	left: 0%;
-	top: 88%;
-	padding: 2px 16px;
-	text-align: center;
-	font-size: 0.75rem;
-	font-family: "pretendard medium";
-	background: #fff;
-	z-index: 12;
-	transform: rotate(-90deg);
-	white-space : nowrap;
-	transform-origin: 0% 0%;
-	}	
-	
-#side{
-	z-index: 12;
-	display: flex;
-	position: fixed;
-	left: 0%;
-	top: 20%;
-}
-	
-	.tltle {
-    font-family: "pretendard bold";
+  #side-info {
+    display: none;
+    position: fixed;
+    left: 0%;
+    top: 88%;
+    padding: 2px 16px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'pretendard medium';
+    background: #fff;
+    z-index: 12;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    transform-origin: 0% 0%;
+  }
+
+  #side {
+    z-index: 12;
+    display: flex;
+    position: fixed;
+    left: 0%;
+    top: 20%;
+  }
+
+  .tltle {
+    font-family: 'pretendard bold';
     font-weight: 600;
     font-size: 150%;
     text-align: left;
     margin-top: 6.5rem;
     position: absolute;
     padding-left: 1.5rem;
-	
-
   }
-	
-	#main-area {
+
+  #main-area {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -92,61 +88,58 @@
     left: 0px;
     top: 0px;
     position: fixed;
-	flex-wrap: wrap;
-	overflow-y: auto;
-	
+    flex-wrap: wrap;
+    overflow-y: auto;
   }
-	
-.card-area{
+
+  .card-area {
     padding-top: 10rem;
     position: static;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-	float: left;
+    float: left;
     gap: 16px;
-	display: flex;
-	overflow-x: hidden;
-	padding-left: 32px;
-	padding-right: 32px;
-	padding-bottom: 60px;
-	width: 100%;
-	}
-	
-.card{
-	position: relative;
-	display: flex;
-	border-radius: 16px;
-	max-height: 15%;
-	min-height: 10%;
-	max-width: 100%;
-	min-width: 40%;
-	overflow: hidden;
-}
-	
-	.card-image{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	
-}
-	.card-text-wrap{
-		position: absolute;
-		bottom: 0px;
-		padding-left: 12px;
-		z-index: 2;
-		width: 100%;
-		background-color: rgba(0,0,0,0.2);
-}
-	
-	.card-title{
-		font-family: 'Pretendard medium';
-		font-weight: 300;
-		line-height: 22px;
-		color: #fff;
-}
-	
+    display: flex;
+    overflow-x: hidden;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+
+    max-height: 15%;
+    min-height: 10%;
+    max-width: 100%;
+    min-width: 40%;
+    overflow: hidden;
+  }
+
+  .card-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .card-text-wrap {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 12px;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .card-title {
+    font-family: 'Pretendard medium';
+    font-weight: 300;
+    line-height: 22px;
+    color: #fff;
+  }
 }
 
 /*desktop*/
@@ -170,7 +163,7 @@
     list-style: none;
     text-align: left;
   }
-  
+
   .logo-menu {
     flex-direction: column;
     justify-content: flex-start;
@@ -196,11 +189,11 @@
   .info-text {
     color: #444444;
     font-size: 1rem;
-    font-family: "Pretendard medium";
+    font-family: 'Pretendard medium';
     font-weight: 500;
     word-wrap: break-word;
     text-decoration: none;
-	}
+  }
 
   .logomenu-info {
     flex-direction: column;
@@ -208,7 +201,7 @@
     align-items: flex-start;
     display: flex;
   }
-   #nav-bar {
+  #nav-bar {
     height: 100vh;
     width: 18rem;
     padding-top: 4rem;
@@ -225,30 +218,28 @@
     background-color: #fff;
     z-index: 10;
   }
-  #side-info{
-	display: none;
-	}
-#side{
-	display: none;
-}
-	
-	.tltle {
-    font-family: "pretendard bold";
+  #side-info {
+    display: none;
+  }
+  #side {
+    display: none;
+  }
+
+  .tltle {
+    font-family: 'pretendard bold';
     font-weight: 600;
     font-size: 300%;
     text-align: left;
     margin-top: 3rem;
     margin-left: 10rem;
-	position: absolute;
-	
-	animation-duration: 1s;
-	animation-name: slidetitle;
-	animation-direction: normal;
-  }
-	
+    position: absolute;
 
-	
-	#main-area {
+    animation-duration: 1s;
+    animation-name: slidetitle;
+    animation-direction: normal;
+  }
+
+  #main-area {
     display: flex;
     width: 80vw;
     height: 100vh;
@@ -259,82 +250,70 @@
     left: 20vw;
     top: 0px;
     position: fixed;
-	flex-wrap: wrap;
-	overflow-y: auto;
+    flex-wrap: wrap;
+    overflow-y: auto;
   }
-	
-.card-area{
+
+  .card-area {
     padding-top: 10rem;
     position: static;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-	float: left;
-    gap:24px;
-	display: flex;
-	overflow-x: hidden;
-	padding-left: 10rem;
-	padding-right: 4rem;
-	width: 100%;
-	}
-	
-.card{
-	position: relative;
-	display: flex;
-	
-	border-radius: 16px;
-	width: 292px;
-	height: 256px;
-	overflow: hidden;
-	transition: 0.5s;
-	
-}
-	
-	.card:hover{
-		transform: scale(1.05);
-	}
-	
-.card-image{
-	position: relative;
-	width: 292px;
-	height: 256px;
-	
-}
-	.card-text-wrap{
-		position: absolute;
-		bottom: 0px;;
-		padding-left: 12px;
-		z-index: 2;
-		width: 100%;
-		background-color: rgba(0,0,0,0.2);
-}
-	
-	.card-title{
-		font-family: 'Pretendard medium';
-		font-weight: 300;
-		line-height: 22px;
-		color: #fff;
-}
-	
-	
-	
-	/*no use*/
-	.card-subtitle{
-		font-family: "pretendard medium";
-		font-weight: 400;
-		line-height: 18px;
-		font-size: 14px;
-		color: #565656;
-		
-	}
-	
-	
-	
-}
+    float: left;
+    gap: 24px;
+    display: flex;
+    overflow-x: hidden;
+    padding-left: 10rem;
+    padding-right: 4rem;
+    width: 100%;
+  }
 
+  .card {
+    position: relative;
+    display: flex;
 
+    width: 292px;
+    height: 256px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
 
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-image {
+    position: relative;
+    width: 292px;
+    height: 256px;
+  }
+  .card-text-wrap {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 12px;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .card-title {
+    font-family: 'Pretendard medium';
+    font-weight: 300;
+    line-height: 22px;
+    color: #fff;
+  }
+
+  /*no use*/
+  .card-subtitle {
+    font-family: 'pretendard medium';
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+    color: #565656;
+  }
+}
 
 .logo {
   width: 8.25rem;
@@ -353,55 +332,50 @@
 
 .menu-text {
   color: black;
-  font-family: "Pretendard bold";
+  font-family: 'Pretendard bold';
   font-weight: 700;
   word-wrap: break-word;
   text-decoration-line: none;
 }
 
-
-
 body {
   overflow: hidden;
 }
 
-html, body{
-	width: 100vw;
-	height: 100vh;
+html,
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
-
-
-
-
 ::-webkit-scrollbar {
-    width: 1%;
+  width: 1%;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #000;
-    border-radius: 8px;
+  background-color: #000;
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #dddddd;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 5px white;
+  background-color: #dddddd;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
 }
 
 /*animation*/
 
 @keyframes slidetitle {
-	from {
+  from {
     position: absolute;
-	margin-top: 3rem;
+    margin-top: 3rem;
     margin-left: 20rem;
-	opacity: 0;
+    opacity: 0;
   }
-	to {
+  to {
     position: absolute;
-	margin-top: 3rem;
+    margin-top: 3rem;
     margin-left: 10rem;
-	opacity: 1;
+    opacity: 1;
   }
 }
