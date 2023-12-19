@@ -28,9 +28,9 @@
     display: none;
   }
   #nav-bar {
-    height: 2rem;
+     height: 2rem;
     width: 100vw;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
     padding-top: 1rem;
     padding-right: 1rem;
     padding-bottom: 1.5rem;
@@ -191,7 +191,7 @@
     top: 0px;
     position: fixed;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     margin-bottom: 10%;
   }
   .image-name-txet {
@@ -228,6 +228,7 @@
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
+	
   }
 
   .image-list-one:hover {
@@ -328,7 +329,7 @@ body {
   }
   to {
     position: relative;
-    top: -500%;
+    top: -475%;
     right: 0%;
   }
 }
