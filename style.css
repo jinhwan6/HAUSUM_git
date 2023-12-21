@@ -6,11 +6,9 @@
   #logo-small {
     display: block;
   }
-
   .menu-text {
     font-size: 1rem;
   }
-
   .menu-list {
     gap: 1rem;
     display: flex;
@@ -21,14 +19,13 @@
   }
   .logo-menu {
     align-items: center;
-
     display: flex;
   }
   .info-list {
     display: none;
   }
   #nav-bar {
-     height: 2rem;
+    height: 2rem;
     width: 100vw;
     padding-left: 1.5rem;
     padding-top: 1rem;
@@ -76,7 +73,6 @@
     max-height: 300px;
     min-height: 30%;
   }
-
   #side-info {
     display: none;
     position: fixed;
@@ -92,7 +88,6 @@
     white-space: nowrap;
     transform-origin: 0% 0%;
   }
-
   #side {
     z-index: 12;
     display: flex;
@@ -101,7 +96,6 @@
     top: 20%;
   }
 }
-
 /*desktop*/
 @media (min-width: 960px) {
   #logo-large {
@@ -110,7 +104,6 @@
   #logo-small {
     display: none;
   }
-
   .menu-text {
     font-size: 1.5rem;
   }
@@ -144,7 +137,6 @@
     position: absolute;
     left: 4rem;
   }
-
   .info-text {
     color: #444444;
     font-size: 1rem;
@@ -153,7 +145,6 @@
     word-wrap: break-word;
     text-decoration: none;
   }
-
   .logomenu-info {
     flex-direction: column;
     justify-content: flex-start;
@@ -209,7 +200,6 @@
     margin-bottom: 6%;
     transition: 0.5s;
   }
-
   .image-list-one {
     top: 0px;
     right: 4.5rem;
@@ -221,15 +211,12 @@
     flex-wrap: wrap;
     gap: 3%;
     max-width: 50%;
-
     animation-duration: 60s;
     animation-name: slide;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
-	
   }
-
   .image-list-one:hover {
     animation-play-state: paused;
   }
@@ -244,7 +231,6 @@
     flex-wrap: wrap;
     gap: 3%;
     max-width: 50%;
-
     animation-duration: 60s;
     animation-name: slide;
     animation-iteration-count: infinite;
@@ -254,7 +240,6 @@
   .image-list-two:hover {
     animation-play-state: paused;
   }
-
   #side-info {
     display: none;
   }
@@ -266,7 +251,6 @@
     z-index: 20;
   }
 }
-
 .logo {
   width: 8.25rem;
   height: 12.125rem;
@@ -281,7 +265,6 @@
   gap: 8px;
   display: flex;
 }
-
 .image {
   width: 100%;
   height: auto;
@@ -289,7 +272,6 @@
   max-height: 100%;
   object-fit: cover;
 }
-
 .menu-text {
   color: black;
   font-family: 'Pretendard bold';
@@ -297,29 +279,23 @@
   word-wrap: break-word;
   text-decoration-line: none;
 }
-
 body {
   overflow: hidden;
   scroll-behavior: smooth;
 }
-
 ::-webkit-scrollbar {
   width: 1%;
 }
-
 ::-webkit-scrollbar-thumb {
   background-color: #000;
   border-radius: 8px;
 }
-
 ::-webkit-scrollbar-track {
   background-color: #dddddd;
   border-radius: 10px;
   box-shadow: inset 0px 0px 5px white;
 }
-
 /*animation*/
-
 @keyframes slide {
   from {
     position: relative;
