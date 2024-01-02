@@ -12,9 +12,9 @@
   .menu-list {
     gap: 1rem;
     display: flex;
-    right: 1.2rem;
+    right: 1.5rem;
     text-align: center;
-    float: left;
+    float: right;
     position: fixed;
   }
   .logo-menu {
@@ -29,7 +29,7 @@
     width: 100vw;
     padding-left: 1.5rem;
     padding-top: 1rem;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
     padding-bottom: 1.5rem;
     left: 0px;
     top: 0px;
@@ -274,7 +274,7 @@
 }
 .menu-text {
   color: black;
-  font-family: 'Pretendard bold';
+  font-family: 'Pretendard';
   font-weight: 700;
   word-wrap: break-word;
   text-decoration-line: none;
