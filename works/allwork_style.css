@@ -67,7 +67,7 @@
   .tltle {
     font-family: 'pretendard bold';
     font-weight: 600;
-    font-size: 150%;
+    font-size: 16px;
     text-align: left;
     margin-top: 6.5rem;
     left: 1.5rem;
@@ -123,13 +123,13 @@
     width: 100%;
   }
   .card-title {
-    font-family: 'Pretendard light';
-    font-weight: 100;
+    font-family: 'Pretendard regular';
+    font-weight: 200;
     line-height: 22px;
     color: rgba(255, 255, 255, 0.7);
     text-align: end;
     padding-right: 16px;
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
 /*desktop*/
