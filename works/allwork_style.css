@@ -13,7 +13,7 @@
   .menu-list {
     gap: 1rem;
     display: flex;
-    right: 1.5rem;
+    right: 24px;
     text-align: center;
     float: right;
     position: fixed;
