@@ -97,6 +97,7 @@
     position: fixed;
     flex-wrap: wrap;
     overflow: auto;
+    overflow-x: hidden;
   }
   .card-area {
     padding-top: 10rem;
