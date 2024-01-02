@@ -5,6 +5,7 @@
   }
   #logo-small {
     display: block;
+    padding-left: 24px;
   }
   .menu-text {
     font-size: 1rem;
@@ -12,14 +13,22 @@
   .menu-list {
     gap: 1rem;
     display: flex;
-    right: 24px;
-    text-align: center;
-    float: right;
     position: fixed;
+    right: 0px;
+    padding-right: 24px;
+    text-align: center;
+  }
+  .logomenu-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 100vw;
   }
   .logo-menu {
     align-items: center;
     display: flex;
+    width: 100vw;
   }
   .info-list {
     display: none;
@@ -27,9 +36,9 @@
   #nav-bar {
     height: 2rem;
     width: 100vw;
-    padding-left: 1.5rem;
+
     padding-top: 1rem;
-    padding-right: 1.5rem;
+
     padding-bottom: 1.5rem;
     left: 0px;
     top: 0px;
@@ -40,6 +49,7 @@
     display: inline-flex;
     background-color: #fff;
     z-index: 10;
+    font-family: 'pretendard';
   }
   #image-area {
     display: flex;
@@ -167,6 +177,7 @@
     gap: 12rem;
     background-color: #fff;
     z-index: 10;
+    font-family: 'pretendard';
   }
   #image-area {
     display: flex;
@@ -256,13 +267,13 @@
   height: 12.125rem;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+
   display: inline-flex;
 }
 .logo-mobile {
   justify-content: center;
   align-items: center;
-  gap: 8px;
+
   display: flex;
 }
 .image {
