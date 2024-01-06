@@ -386,7 +386,7 @@
 
     color: #444;
     word-wrap: break-word;
-    text-align: center;
+    text-align: left;
   }
   .bodytext {
     font-family: 'pretendard-medium';
@@ -394,7 +394,7 @@
     color: #333;
     line-height: 24px;
     word-wrap: break-word;
-    text-align: center;
+    text-align: left;
   }
   .tagtext {
     font-family: 'pretendard-light';
@@ -410,8 +410,8 @@
     width: 100%;
     flex-direction: column;
     gap: 8px;
-    align-items: center;
-    align-content: center;
+    align-items: left;
+    align-content: left;
     padding-bottom: 5rem;
   }
   .text-box {
@@ -452,17 +452,12 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  -ms-overflow-style: none;
+}
+
 ::-webkit-scrollbar {
-  width: 1%;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #000;
-  border-radius: 8px;
-}
-::-webkit-scrollbar-track {
-  background-color: #dddddd;
-  border-radius: 10px;
-  box-shadow: inset 0px 0px 5px white;
+  display: none;
 }
 h2 {
   font-family: 'pretendard-light';
