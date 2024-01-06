@@ -1,3 +1,58 @@
+/*font family*/
+@font-face {
+  font-family: 'pretendard-thin';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-Thin.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-extralight';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-ExtraLight.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-light';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-Light.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-regular';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-Regular.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-medium';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-Medium.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-semibold';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-SemiBold.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-bold';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-Bold.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-extrabold';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-ExtraBold.woff)
+    format('woff');
+}
+
+@font-face {
+  font-family: 'pretendard-black';
+  src: url(./font/Pretendard-1.3.9/web/static/woff/Pretendard-Black.woff)
+    format('woff');
+}
+
 /*mobile*/
 @media (max-width: 959px) {
   #logo-large {
@@ -49,11 +104,11 @@
     display: inline-flex;
     background-color: #fff;
     z-index: 10;
-    font-family: 'pretendard';
   }
+
   #image-area {
     display: flex;
-    max-width: 100vw;
+    width: 100vw;
     height: 100vh;
     left: 0px;
     top: 4rem;
@@ -62,11 +117,34 @@
     flex-direction: column;
     margin-bottom: 10%;
   }
+
+  .image-list-one {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .image-list-two {
+    position: static;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 100vw;
+  }
+
   .image-name-txet {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
-    font-family: 'pretendard regular';
-    font-weight: 200;
+    font-family: 'pretendard-regular';
+
     position: relative;
     right: 2rem;
     bottom: 4rem;
@@ -77,6 +155,7 @@
     align-items: flex-end;
     gap: 0.75rem;
     display: flex;
+    width: 100vw;
   }
   .image {
     width: 100%;
@@ -90,8 +169,8 @@
     top: 88%;
     padding: 2px 16px;
     text-align: center;
-    font-size: 0.75rem;
-    font-family: 'pretendard medium';
+    font-size: 12px;
+    font-family: 'pretendard-medium';
     background: #fff;
     z-index: 12;
     transform: rotate(-90deg);
@@ -104,6 +183,18 @@
     position: fixed;
     left: 0%;
     top: 20%;
+  }
+
+  .image-warp {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 /*desktop*/
@@ -148,10 +239,10 @@
     left: 4rem;
   }
   .info-text {
-    color: #444444;
+    color: #333;
     font-size: 1rem;
-    font-family: 'Pretendard medium';
-    font-weight: 500;
+    font-family: 'Pretendard-regular';
+
     word-wrap: break-word;
     text-decoration: none;
   }
@@ -177,7 +268,6 @@
     gap: 12rem;
     background-color: #fff;
     z-index: 10;
-    font-family: 'pretendard';
   }
   #image-area {
     display: flex;
@@ -191,15 +281,15 @@
     right: 0px;
     top: 0px;
     position: fixed;
-    overflow-x: hidden;
-    overflow-y: hidden;
+
+    overflow: auto;
     margin-bottom: 10%;
   }
   .image-name-txet {
-    color: #444444;
+    color: #222222;
     font-size: 110%;
-    font-family: 'pretendard light';
-    font-weight: 300;
+    font-family: 'pretendard-regular';
+
     word-wrap: break-word;
   }
   .image-text-wrap {
@@ -212,54 +302,64 @@
     transition: 0.5s;
   }
   .image-list-one {
+    height: 100vh;
     top: 0px;
     right: 4.5rem;
     position: static;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 3%;
-    max-width: 50%;
-    animation-duration: 60s;
-    animation-name: slide;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
+
+    max-width: 49%;
+
+    overflow-x: hidden;
+    overflow-y: auto;
   }
-  .image-list-one:hover {
-    animation-play-state: paused;
-  }
+
   .image-list-two {
+    height: 100vh;
     top: 0px;
     right: 4.5rem;
     position: static;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 3%;
-    max-width: 50%;
-    animation-duration: 60s;
-    animation-name: slide;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
+
+    max-width: 49%;
+
+    overflow-x: hidden;
+    overflow-y: auto;
   }
-  .image-list-two:hover {
-    animation-play-state: paused;
-  }
+
   #side-info {
     display: none;
   }
   #side {
     display: none;
   }
-  .image-text-wrap:hover {
-    transform: scale(1.05);
-    z-index: 20;
+
+  /* no use
+  .image-warp:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }*/
+
+  .image-warp {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 .logo {
@@ -276,17 +376,11 @@
 
   display: flex;
 }
-.image {
-  width: 100%;
-  height: auto;
-  min-height: 60%;
-  max-height: 100%;
-  object-fit: cover;
-}
+
 .menu-text {
   color: black;
-  font-family: 'Pretendard';
-  font-weight: 700;
+  font-family: 'pretendard-medium';
+
   word-wrap: break-word;
   text-decoration-line: none;
 }
@@ -306,7 +400,8 @@ body {
   border-radius: 10px;
   box-shadow: inset 0px 0px 5px white;
 }
-/*animation*/
+
+/* no use animation
 @keyframes slide {
   from {
     position: relative;
@@ -318,4 +413,4 @@ body {
     top: -475%;
     right: 0%;
   }
-}
+}*/
