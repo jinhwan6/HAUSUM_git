@@ -365,6 +365,7 @@
   }
   .card-area {
     padding-top: 10rem;
+    padding-bottom: 4rem;
     position: static;
     flex-direction: row;
     justify-content: flex-start;
@@ -398,6 +399,7 @@
     bottom: 0px;
     z-index: 2;
     width: 100%;
+    background-color: rgba(30, 30, 30, 0.2);
   }
   .card-title {
     font-family: 'Pretendard-medium';

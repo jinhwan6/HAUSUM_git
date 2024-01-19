@@ -100,9 +100,9 @@
     align-items: flex-start;
     gap: 4px;
     display: flex;
-    bottom: 5rem;
+    top: 0;
     position: relative;
-    left: 32px;
+    left: 0px;
   }
   .mobile-info-text {
     color: #444444;
@@ -180,7 +180,7 @@
   }
   .image-list {
     padding-top: 6rem;
-    padding-bottom: 12rem;
+    padding-bottom: 2rem;
     padding-left: 24px;
     padding-right: 24px;
     position: static;
