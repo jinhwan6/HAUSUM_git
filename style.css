@@ -157,9 +157,7 @@
     display: flex;
     width: 100vw;
   }
-  .image {
-    width: 100%;
-  }
+
   #side-info {
     display: none;
     position: fixed;
