@@ -53,6 +53,12 @@
     format('woff');
 }
 
+.noto-serif kr-regular {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*mobile*/
 @media (max-width: 959px) {
   #logo-large {
@@ -260,8 +266,10 @@
   }
 
   .about-text {
-    font-family: 'pretendard-medium';
+    font-family: 'Noto Serif KR', serif;
     font-weight: 400;
+    font-style: normal;
+    letter-spacing: -1.5px;
     line-height: 16px;
     font-size: 16px;
     color: #1e1e1e;
@@ -501,8 +509,10 @@
   }
 
   .about-text {
-    font-family: 'pretendard-medium';
+    font-family: 'Noto Serif KR', serif;
     font-weight: 400;
+    font-style: normal;
+    letter-spacing: -1.5px;
     line-height: 18px;
     font-size: 20px;
     color: #1e1e1e;
