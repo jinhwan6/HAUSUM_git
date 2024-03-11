@@ -258,6 +258,35 @@
     width: 100%;
     word-wrap: break-word;
   }
+
+  .about-text {
+    font-family: 'pretendard-medium';
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 16px;
+    color: #1e1e1e;
+    text-align: center;
+  }
+
+  .about-align {
+    position: relative;
+    margin: auto;
+    top: -1rem;
+  }
+
+  #main-area-about {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 0;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    flex-wrap: wrap;
+    overflow-y: auto;
+  }
 }
 /*desktop*/
 @media (min-width: 960px) {
@@ -469,6 +498,35 @@
     line-height: 18px;
     font-size: 14px;
     color: #565656;
+  }
+
+  .about-text {
+    font-family: 'pretendard-medium';
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 20px;
+    color: #1e1e1e;
+    text-align: center;
+  }
+
+  .about-align {
+    position: relative;
+    margin: auto;
+    top: -1rem;
+  }
+
+  #main-area-about {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 0;
+    left: 4rem;
+    top: 0px;
+    position: fixed;
+    flex-wrap: wrap;
+    overflow-y: auto;
   }
 }
 .logo {
