@@ -285,6 +285,7 @@
     font-size: 14px;
     color: #777;
     text-align: left;
+    margin-top: 24px;
   }
 
   .about-align {
@@ -542,6 +543,7 @@
     color: #777;
     text-align: left;
     z-index: 20;
+    margin-top: 32px;
   }
 
   .about-align {
