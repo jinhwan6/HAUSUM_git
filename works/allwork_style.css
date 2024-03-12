@@ -57,7 +57,6 @@
   font-family: 'Noto Serif KR', serif;
   font-weight: 400;
   font-style: normal;
-  line-height: auto;
 }
 
 /*mobile*/
@@ -295,7 +294,7 @@
     position: fixed;
     flex-wrap: wrap;
     overflow-y: auto;
-    margin: 0 32px 0 48px;
+    margin: auto 32px 0px 48px;
   }
 }
 /*desktop*/
@@ -367,7 +366,7 @@
     align-items: flex-start;
     display: inline-flex;
     gap: 12rem;
-    background-color: #fff;
+
     z-index: 10;
   }
   #side-info {
@@ -519,6 +518,7 @@
     font-size: 20px;
     color: #1e1e1e;
     text-align: left;
+    z-index: 20;
   }
 
   .about-align {
@@ -534,12 +534,11 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-shrink: 0;
-    left: 2rem;
+    padding-left: 8rem;
     top: 0px;
     position: fixed;
     flex-wrap: wrap;
     overflow-y: auto;
-    z-index: 15;
   }
 }
 .logo {
