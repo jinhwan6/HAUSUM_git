@@ -242,6 +242,15 @@
     word-wrap: break-word;
     text-decoration: none;
   }
+  .copyright-text {
+    color: #555;
+    font-size: 10px;
+    font-family: 'Pretendard-regular';
+
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+
   .logomenu-info {
     flex-direction: column;
     justify-content: flex-start;
