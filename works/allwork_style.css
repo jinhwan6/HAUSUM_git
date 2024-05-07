@@ -340,7 +340,7 @@
     align-items: flex-start;
     gap: 3rem;
     display: flex;
-    background-color: #fff;
+
     z-index: 11;
     padding-bottom: 2.5rem;
     padding-right: 4.5rem;
@@ -371,7 +371,7 @@
   }
   #nav-bar {
     height: 100vh;
-    width: 18rem;
+    width: 16rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 4rem;
@@ -383,6 +383,7 @@
     align-items: flex-start;
     display: inline-flex;
     gap: 12rem;
+    background-color: rgba(255, 255, 255, 0);
 
     z-index: 10;
   }
@@ -398,7 +399,7 @@
     font-size: 300%;
     text-align: left;
     margin-top: 3rem;
-    margin-left: 0px;
+    margin-left: 8px;
     position: absolute;
     animation-duration: 1s;
     animation-name: slidetitle;
@@ -412,13 +413,14 @@
     align-items: flex-start;
     flex-shrink: 0;
     padding-left: 1rem;
-    left: 352px;
+    left: 20rem;
     top: 0px;
     position: fixed;
     flex-wrap: wrap;
     overflow-y: auto;
   }
   .card-area {
+    padding-left: 8px;
     padding-top: 10rem;
     padding-bottom: 4rem;
     position: static;
@@ -436,8 +438,8 @@
   .card {
     position: relative;
     display: flex;
-    width: 292px;
-    height: 256px;
+    width: 26%;
+
     overflow: hidden;
     transition: 0.5s;
   }
@@ -447,10 +449,12 @@
   .card-image {
     position: relative;
     width: 100%;
+
+    object-fit: cover;
   }
   .card-text-wrap {
     position: absolute;
-    bottom: 0px;
+    bottom: 4px;
     z-index: 2;
     width: 100%;
 
@@ -620,7 +624,7 @@ body {
   to {
     position: absolute;
     margin-top: 3rem;
-    margin-left: 0rem;
+    margin-left: 8px;
     opacity: 1;
   }
 }
